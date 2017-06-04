@@ -149,6 +149,10 @@
     <ClInclude Include="defines.h" />
     <ClInclude Include="functions.h" />
     <ClInclude Include="includes.h" />
+    <ClInclude Include="resources.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mc_logtracker.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
